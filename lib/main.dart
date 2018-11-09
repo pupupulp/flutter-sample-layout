@@ -82,18 +82,9 @@ class MyApp extends StatelessWidget {
         '''Tssssss''',
         softWrap: true,
       ),
-    )
+    );
 
     return MaterialApp(
-      body: ListView(
-        children: <Widget>[
-          Image.asset(
-            'assets/background.jpg',
-            height: 240.0,
-            fit: BoxFit.cover,
-          )
-        ],
-      )
       title: 'Flutter Sample Layout',
       theme: ThemeData(
         // This is the theme of your application.
